@@ -1,3 +1,4 @@
 docutils>=0.10,<0.16
 Sphinx==1.2.3
 -e .
+pygments>=2.20.0 # not directly required, pinned by Snyk to avoid a vulnerability
